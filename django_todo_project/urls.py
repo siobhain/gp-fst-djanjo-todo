@@ -19,6 +19,6 @@ from myapptodo.views import get_todo_list, add_item
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', get_todo_list, name='get_todo_list'),
-    path('add', add_item, name='addhere'),
+    path('', get_todo_list, name='get_todo_list'), # home
+    path('add/', add_item, name='add'), # no slash after add in cheatsheet
 ]

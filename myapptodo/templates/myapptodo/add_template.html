@@ -8,8 +8,26 @@
 </head>
 
 <body>
-    <h1>Do you need to Add an Item</h1>
-    <a href = "/add">Add an Item</a>
+    <h1>So you need to CREATE an Item - Complete the Form then</h1>
+    <form method="POST" action="add">
+        {% csrf_token %}
+        <div>
+            <p>
+                <label for = "id_decsription">Desctiption:</label>
+                <input type="text" id="id_description" name="item_description" />
+                <div>
+                    <p>
+                        <label for = "id_done">Done:</label>
+                        <input type="checkbox" id="id_done" name="done" />
+                    </p>
+                </div>
+                <div>
+                    <p>
+                        <button type="submit">Add Item ie Create</button>
+                    </p>
+                </div>
+            </form>
+    
 </body>
 
 </html>
