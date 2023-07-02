@@ -13,7 +13,7 @@
         <!-- <form ...action="{% url 'add' %}">   on the individual cheatsheet, next on the 80 page one  -->
         <!-- <form method="POST" action="add"></form> Had to remove action else looking for url add/add/ -->
         {% csrf_token %}
-        {{ form }}
+        {{ form.as_p }}
         <!-- <div>  This was html b4 using Dj inbuilt forms
             <p>
                 <label for="id_description">Description:</label>
