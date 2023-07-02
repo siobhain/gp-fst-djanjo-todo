@@ -20,6 +20,8 @@
                 <td>{{ item.name }}</td>
             {% endif %}
         </tr>
+        {% empty %}
+        <tr><td>You are off the hook, nothing to do here!!!</td></tr>
         {% endfor %}
     </table>
 </body>
