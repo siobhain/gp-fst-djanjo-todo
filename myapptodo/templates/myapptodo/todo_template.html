@@ -20,6 +20,11 @@
                 <td>{{ item.name }}</td>
             {% endif %}
             <td>
+                <a href="/toggle/{{ item.id }}">
+                    <button>Toggle</button>
+                </a>
+            </td>
+            <td>
                 <a href="/edit/{{ item.id }}">
                     <button>Amend</button>
                 </a>
