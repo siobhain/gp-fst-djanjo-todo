@@ -10,8 +10,8 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 
-from pathlib import Path
 import os
+from pathlib import Path
 import dj_database_url
 
 if os.path.isfile("env.py"):
@@ -28,13 +28,14 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY WARNING: keep the secret key used in production secret!
 # 30 jun sob removed secret and put in env.py
 
-SECRET_KEY = os.environ.get('SECRET_KEY', '')
+SECRET_KEY = os.environ.get('SECRET_KEY', 'mysecret')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
 # ALLOWED_HOSTS = ['8000-siobhain-gpfstdjanjotod-qant2fp4i42.ws-eu101.gitpod.io']
-ALLOWED_HOSTS = ['sob-django-todoapp-bb7b4300ff52.herokuapp.com']
+# ALLOWED_HOSTS = ['sob-django-todoapp-bb7b4300ff52.herokuapp.com']
+ALLOWED_HOSTS = [os.environ.get('HEROKU_HOSTNAME')]
 
 
 # Application definition
