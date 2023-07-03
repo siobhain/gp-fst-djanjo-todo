@@ -19,6 +19,12 @@
             {% else %}
                 <td>{{ item.name }}</td>
             {% endif %}
+            <td>
+                <a href="/edit/{{ item.id }}">
+                    <button>Amend</button>
+                </a>
+            </td>
+
         </tr>
         {% empty %}
         <tr><td>You are off the hook, nothing to do here!!!</td></tr>
