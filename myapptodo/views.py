@@ -55,5 +55,7 @@ def toggle_item(request, item_id):
     item.save()
     return redirect('get_todo_list')
 
-
-    
+def delete_item(request, item_id):
+    item = get_object_or_404(Item, id=item_id)
+    item.delete()
+    return redirect('get_todo_list')
