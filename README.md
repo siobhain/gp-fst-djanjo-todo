@@ -2,6 +2,8 @@
 
 pip3 install 'django<4'
 
+https://github.com/siobhain/gp-fst-djanjo-todo/issues/8#issue-1803905934
+
 
 This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
 
