@@ -2,6 +2,8 @@
 
 pip3 install 'django<4'
 
+https://github.com/siobhain/gp-fst-djanjo-todo/issues/3#issue-1803904648
+
 https://github.com/siobhain/gp-fst-djanjo-todo/issues/2#issue-1803905934
 
 https://github.com/siobhain/gp-fst-djanjo-todo/issues/4#issue-1803905934
