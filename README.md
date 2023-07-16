@@ -1,24 +1,25 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-pip3 install 'django<4'
-
+`pip3 install 'django<4'`
+```
 https://github.com/siobhain/gp-fst-djanjo-todo/issues/3#issue-1803904648
-
+```
+```
 https://github.com/siobhain/gp-fst-djanjo-todo/issues/2#issue-1803905934
-
+```
 https://github.com/siobhain/gp-fst-djanjo-todo/issues/4#issue-1803905934
-
+```
 https://github.com/siobhain/gp-fst-djanjo-todo/issues/6#issue-1803905934
 
 https://github.com/siobhain/gp-fst-djanjo-todo/issues/8#issue-1803905934
-
+```
 
 
 This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
 
 You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
 
-## Gitpod Reminders
+`## Gitpod Reminders`
 
 To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
